@@ -2,7 +2,7 @@ import os
 from PyPDF2 import PdfReader, PdfWriter
 #import PyPDF2
 
-
+#PDF Basic Merger for HP Printer Staple scan, hard coded
 
 cur_path = os.path.dirname(__file__)
 pdf1_path = os.path.relpath("..\\Test_PDF\\Sportmassage Vorderseiten.pdf", cur_path)
